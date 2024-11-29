@@ -25,15 +25,16 @@ SEAL’s encryption schemes rely on the Ring Learning with Errors (RLWE) problem
 ## Installation
 
 To install the library, use the following command:
+```
 npm install tsseal
-
+```
 ## Component Setup
 
 ### Import
 Import the library with
-
+```
 import { TSSEAL } from 'tsseal';
-
+```
 ### Initialization
 
 The library has to be initialized prior to calls being made. To do so do the following
