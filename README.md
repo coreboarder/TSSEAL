@@ -1,7 +1,11 @@
+<!-- @format -->
+
 # TSSEAL Usage Guide
 
 ## Overview
+
 TSSEAL is a TypeScript-based library designed for advanced encryption utilities using homomorphic encryption leveraging SEAL. This guide explains how to:
+
 1. Install the library.
 2. Enable debugging.
 3. Use it effectively in an Angular project.
@@ -25,16 +29,23 @@ SEAL’s encryption schemes rely on the Ring Learning with Errors (RLWE) problem
 ## Installation
 
 To install the library, use the following command:
+
 ```
 npm install tsseal
 ```
+
+The package is available on [https://www.npmjs.com/package/tsseal](https://www.npmjs.com/package/tsseal).
+
 ## Component Setup
 
 ### Import
+
 Import the library with
+
 ```
 import { TSSEAL } from 'tsseal';
 ```
+
 ### Initialization
 
 The library has to be initialized prior to calls being made. To do so do the following
@@ -86,6 +97,7 @@ async testEncryption() {
 ```
 
 ### Add multiple numbers together
+
 ```
 <button (click)="testAddition()">Test Addition</button>
 
@@ -111,6 +123,7 @@ async testAddition() {
 ```
 
 ### Add a number to an encrypted one
+
 ```
 <button (click)="testAddPlainToCiphertext()">Test Add Plain To Ciphertext</button>
 
@@ -132,6 +145,7 @@ async testAddPlainToCiphertext() {
 ```
 
 ### Subtract encrypted values from each other
+
 ```
 <button (click)="testSubtractCiphertexts()">Test Subtract Ciphertexts</button>
 
@@ -162,6 +176,7 @@ async testSubtractCiphertexts() {
 ```
 
 ### Subtract a number from an encrypted one
+
 ```
 <button (click)="testSubtractPlainFromCiphertext()">Test Subtract Plain From Ciphertext</button>
 
@@ -189,6 +204,7 @@ async testSubtractPlainFromCiphertext() {
 ```
 
 ### Get the current noise budget
+
 ```
 <button (click)="testNoiseBudget()">Test Noise Budget</button>
 
