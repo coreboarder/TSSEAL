@@ -28,7 +28,7 @@ SEAL’s encryption schemes rely on the Ring Learning with Errors (RLWE) problem
 
 ## Demo
 
-You can access a functional demo here: [https://coreboarder.github.io/TSSEAL/](https://coreboarder.github.io/TSSEAL/)
+[You can access a functional demo here](https://bit.ly/3Zh9zy2).
 
 ## Installation
 
