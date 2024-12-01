@@ -30,6 +30,8 @@ SEAL’s encryption schemes rely on the Ring Learning with Errors (RLWE) problem
 
 [You can access a functional demo here](https://bit.ly/3Zh9zy2).
 
+<a href="https://www.buymeacoffee.com/ak00" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
+
 ## Installation
 
 To install the library, use the following command:
